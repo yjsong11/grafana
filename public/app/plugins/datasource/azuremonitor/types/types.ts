@@ -26,7 +26,6 @@ export interface DatasourceValidationResult {
 export interface AzureMonitorDataSourceJsonData extends AzureDataSourceJsonData {
   // monitor
   subscriptionId?: string;
-  oauthPassThru?: boolean;
   basicLogsEnabled?: boolean;
 
   // logs

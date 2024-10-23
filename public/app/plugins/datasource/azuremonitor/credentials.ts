@@ -34,7 +34,6 @@ export function updateCredentials(
       ...options,
       jsonData: {
         ...options.jsonData,
-        oauthPassThru: true,
         disableGrafanaCache: true,
       },
     };
